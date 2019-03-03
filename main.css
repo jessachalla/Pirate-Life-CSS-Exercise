@@ -1,0 +1,49 @@
+body {
+    margin: auto;
+    background-color: lightgray;
+}
+
+main {
+    margin: 0 auto;
+    padding: 50px; 
+    max-width: 800px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Seaweed Script', cursive;
+    margin: 0;
+}
+
+.shipLabel, .bootyLabel {
+    font-size: 24px;
+}
+
+.boat, .booty {
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 5px 8px #888888;
+}
+
+.boat {
+    float: right;
+    transform: rotate(2deg);
+}
+
+.booty {
+    float: left;
+    transform: rotate(358deg);
+}
+
+img {
+    height: 220px;
+    width: 300px;
+}
+
